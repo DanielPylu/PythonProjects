@@ -1,6 +1,6 @@
 numeroEscolhido = int(input('Digite um numero para a tabuada: '))
 
-print('-' * 11)
+print('-' * 11) # efeito visual, ajuste pelo numero a quantidade de linhas
 n1 = (numeroEscolhido * 1)
 n2 = (numeroEscolhido * 2)
 n3 = (numeroEscolhido * 3)
@@ -22,4 +22,4 @@ print('{} * 7 = {}'.format(numeroEscolhido, n7))
 print('{} * 8 = {}'.format(numeroEscolhido, n8))
 print('{} * 9 = {}'.format(numeroEscolhido, n9))
 print('{} * 10 = {}'.format(numeroEscolhido, n10))
-print('-' * 11)
+print('-' * 11) # efeito visual, ajuste pelo numero a quantidade de linhas
